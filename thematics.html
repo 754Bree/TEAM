@@ -10,27 +10,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-warning" style="border: bottom 3px; background-color: #CC9544;justify-content: space-between; ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="assets/team logo.png" alt="Team Logo" height="100px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                    <a class="nav-link" href="/thematics.html"> Thematic Areas</a>
-                    <a class="nav-link" href="/gallery.html">Gallery</a>
-                    <a class="nav-link" href="/contact.html">Contact Us</a>
+<body style="font-family:'Times New Roman', Times, serif ;">
+    <nav class="navbar navbar-expand-lg" style="border: bottom 3px; background-color: #CC9544;justify-content: space-between; ">
+        <div class="container-fluid" style="display: flex;justify-content: space-between;">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/team logo.png" alt="Team Logo" height="100px">
+                  </a>
+            </div>
+            <div class="container" style="float: right;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="justify-content:space-evenly;">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link" href="/thematics.html"> Thematic Areas</a>
+                        <a class="nav-link" href="/gallery.html">Gallery</a>
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </nav>
 
-    <div class="container-fluid" style="padding-bottom: 2%;align-items: center; text-align: center;background-color: black;color: whitesmoke;">
+    <div class="container-fluid" style="padding-bottom: 2%;align-items: center; text-align: center;background-color: #F4DFBA;color: #603601;padding-top: 3%;">
         <h2>Thematic Areas</h2>
         <div class="thematics" style="padding-top: 3%;">
             <div class="row" id="row" style="padding-bottom: 5%;">
@@ -117,7 +122,7 @@
             </div>    
         </div>
     </div>
-    <footer class="bg-dark">
+    <footer class="footer footer-expand-lg" style="padding-top: 3%;padding-bottom: 2%; background-color: #1C0A00 ;color:  rgb(248, 213, 12);">
         <div class="row">
                 <div class="col-md-4">
                     <h5>Connect with us on:</h5>
@@ -154,7 +159,7 @@
                     </div>  
                 </div>
                 <div class="col-md-4">
-                    <h6>Sign up for our newsletter below</h6>
+                    <h5>Sign up for our newsletter below</h5>
                     <form action="Submit">
                         <div class="mb-3">
                             <label for="formGroupInput" class="form-label">Name</label>
@@ -173,7 +178,7 @@
             
         </div>
         <div class="partners">
-            <div class="column" id="column1">
+            <div class="column" id="column1" style="display: flex; justify-content:space-evenly;padding-top: 3%;font-weight: bold;">
                 <p>URAIA TRUST</p>
                 <p>FORD FOUNDATION</p>
                 <p>DANIDA</p>
@@ -182,7 +187,7 @@
                 <p>HIVOS</p>
             </div>
         </div>
-        <div class="copyrights" style="text-align: center;font-weight:bold;">
+        <div class="copyrights" style="text-align: center;font-weight:bold;padding-top: 3%;">
             <p>Copyright 2022 @ TEAM</p>
             <p>All Rights Reserved</p>
         </div>
