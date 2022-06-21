@@ -1,0 +1,14 @@
+#body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+a.nav-link{
+    color: #1C0A00;
+}
+a.nav-link:hover{
+    color: #FF5B00 ;
+}
+.card{
+    width: 20rem;
+}
