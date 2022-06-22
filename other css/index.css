@@ -1,22 +1,38 @@
 #body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    
+    background-image: url(https://images.unsplash.com/photo-1499540633125-484965b60031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-clip: border-box;
+   
 }
+header{
+    background-color: transparent;
+}
+
 #one{
     justify-content: space-between;
 }
+#navbar{
+    height: 50%;
+    background-color: transparent;
+}
 a.nav-link{
     color:#1C0A00 ;
-    font-weight: bolder;
+    font-weight: 900;
     text-decoration: none;
 }
 a.nav-link:hover{
     color: #FF5B00;
 }
 #h1{
-    font-weight: bold;
-    color:#9D5C0D;
+    font-weight:1000;
+    color:#ff8d02;
+    text-decoration: underline;
+}
+h3{ color: rgba(34, 34, 34, 0.658);
 }
 h5{
     font-weight: bold;
@@ -24,21 +40,41 @@ h5{
 }
 
 p{
-    color: #9D5C0D;
+    color:azure;
     font-weight: bold;
 }
 #intro{
     padding-top:10% ;
 }
 #about{
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 6%;
 }
+#c1{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+#c2{
+    background-color: rgba(0, 0, 0, 0.616);   
+}
+#c3{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+.column{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 20rem;
+    background-color: transparent;
+    color: #FF5B00;
+}
+
+
 svg:hover{
     fill: yellow;
 }
 a.foot-link{
-    color: #1C0A00;
+    color: #ff5900;
 }
 a.foot-link:hover{
     color: #FF5B00;
@@ -49,10 +85,10 @@ a.foot-link:hover{
     padding-top: 3%;
 }
 .foot-t{
-    color: #1C0A00;
+    color: #ff5b02;
 }
 p.foot-p{
-    color:#1C0A00;
+    color:#ff5900;
     font-weight: bold;
     display: flex;
 }
@@ -61,8 +97,10 @@ p.foot-p{
     align-items: center;
 }
 footer{
+    font-weight: bolder;
+    height: fit-content;
     text-align: center;
     justify-content: space-evenly;
-    background-color: #603501ce;
-    padding-top: 3%;
+    background-color: #000000;
+  
 }
